@@ -57,7 +57,7 @@ function activate(context) {
      * 4. 找到 3 中的 alias 字段，默认加上 @ path
      * 5. 到 2 中的文件声明 3 的内容
      */
-    const disposable = vscode.commands.registerCommand('extension.helloWorld', function() {
+    const disposable = vscode.commands.registerCommand('extension.generateJsconfig', function() {
         if (isWorking) return
         isWorking = true
 
