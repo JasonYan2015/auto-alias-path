@@ -25,7 +25,27 @@
 				"command": "extension.generateJsconfig",
 				"title": "Generate jsconfig"
 			}
-		]
+		],
+		"configuration": {
+			"title": "autoAliasPath",
+			"properties": {
+				"autoAliasPath.aliasConfigFilePath": {
+					"type": "string",
+					"default": null,
+					"description": "webpack配置文件目录"
+				},
+				"autoAliasPath.jsconfigTarget": {
+					"type": "string",
+					"default": null,
+					"description": "jsconfig: compilerOptions.target"
+				},
+				"autoAliasPath.jsconfigModule": {
+					"type": "string",
+					"default": null,
+					"description": "jsconfig.json: compilerOptions.module"
+				}
+			}
+		}
 	},
 	"scripts": {
 		"test": "node ./test/runTest.js"
