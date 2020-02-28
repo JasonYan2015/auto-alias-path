@@ -3,6 +3,7 @@
 	"displayName": "auto-alias-path",
 	"description": "declare \"path\" in jsconfig.json/tsconfig.json automatically",
 	"version": "1.0.0",
+	"repository": "https://github.com/JasonYan2015/auto-alias-path.git",
 	"engines": {
 		"vscode": "^1.39.0"
 	},
